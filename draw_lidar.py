@@ -1,7 +1,7 @@
 from rplidar import RPLidar
 from math import sin,cos,radians,sqrt
 import cv2
-
+# test
 lidar=RPLidar('COM3')
 data=lidar.iter_scans()
 
